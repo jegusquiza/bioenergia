@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Bioenergia del Peru</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700'>
+  <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <header>
+		<div class="inner">
+			<!-- <div class="logo"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123024/wwf-logo.png"></div> -->
+      <div class="logo"><img src="images/logo.png"></div>
+			<div class="burger"></div>
+			<nav>
+				<!-- <a class="active" href="#">Species</a> -->
+				<a href="#">About Us</a>
+				<!-- <a href="#">Our Work</a> -->
+				<!-- <a href="#">Get Involved</a> -->
+			</nav>
+			<!-- <a href="#" class="donate-link">Donate</a> -->
+		</div>
+	</header>
+
+  <section id="home" class="sec-main">
+  <h1 class="main-heading">Bioenergia del Peru</h1>
+  </section>
+
+
+<main>
+  <h1> We develop renewable energy projects in Peru.</h1>
+  <!-- <h2> Innovation and action to protect the environment</h2> -->
+</main>
+
+<!-- <span style="font-size: 3em; color: Tomato;">
+  <i class="fas fa-stroopwafel"></i>
+</span> -->
+
+
+
+<section id="services" class="sec-services">
+  <div class="container">
+    <h1>Services</h1>
+
+    <hr />
+
+    <div class="row">
+      <div class="col-sm-4">
+        <i class="fa fa-4x fas fa-industry"></i>
+
+        <h2 class="h3">Industry</h2>
+
+        <p>energy, energy, energy, energy</p>
+      </div>
+
+      <div class="col-sm-4">
+        <i class="fa fa-4x fas fa-sun"></i>
+
+        <h2 class="h3">Solar energy</h2>
+
+        <p>solar solar solar solar solar solar</p>
+      </div>
+
+
+
+      <div class="col-sm-4">
+        <i class="fa fa-4x fas fa-leaf"></i>
+
+        <h2 class="h3">Renewable energy</h2>
+
+        <p>recycle recycle recycle recycle</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+      <!-- <div class="row">
+        <div class="col-md-4">
+          <img class="center-block" src="images/ocho.jpg" alt="By Anthony DELANOIX" />
+        </div> -->
+
+        <!-- <div class="col-md-4">
+          <img class="center-block" src="images/nueve.jpg" alt="By Patrick Pilz" />
+        </div> -->
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+  <!-- For the slider to work, we need 1st and last image to be the same. -->
+    <div id="slider">
+      <figure>
+        <img src="images/one.JPG">
+        <img src="images/two.JPG">
+        <img src="images/three.JPG">
+        <img src="images/four.JPG">
+        <img src="images/one.JPG">
+      </figure>
+    </div>
+
+</body>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Lato:100');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,300,800|Lora:400italic|Playfair+Display:700');
+
+
+body{
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  background-color: #161616;
+}
+
+/* referencing div slider */
+#slider{
+  overflow: hidden;
+}
+
+#slider figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+  transition: 1s;
+}
+
+#slider figure img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+
+.main-heading {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 500;
+  font-size:30px;
+  text-align: center;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+  margin-top: 5%;
+
+
+
+  /* font-family: 'acta-display', serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: -1px;
+  color: white;
+  line-height: 30px;
+  margin: 20px 0 60px; */
+}
+
+/*Main*/
+
+.sec-main {
+  position: relative;
+  height: 560px;
+
+  /* background: url(https://source.unsplash.com/kVf7VRgg4p8/1920x1080) no-repeat center center; */
+  background: url(images/bioe.jpg) no-repeat center center;
+  background-size: cover;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, .4);
+  }
+}
+
+.main-heading {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  padding: 0;
+
+  margin: auto;
+  height: 40px;
+  color: #fff;
+}
+
+header {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 115px;
+  z-index: 10;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/123024/menutexture.png);
+  background-position: center top;
+  background-size: auto 200px;
+  background-repeat: repeat-x;
+}
+header .inner {
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+header .logo {
+  display: block;
+  width: 110px;
+  height: 76px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+
+  text-align: center;
+}
+header .logo img {
+  width: 90px;
+  margin-top: 10px;
+}
+header nav {
+  display: none;
+}
+header nav a {
+  font-family: 'Arial', serif;
+  font-size: 12px;
+  color: #8c8c8e;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
+  margin: 0 18px;
+}
+header nav a.active, header nav a:hover {
+  color: white;
+}
+@media screen and (min-width: 800px) {
+  header nav {
+    display: block;
+  }
+}
+header .burger {
+  display: block;
+  position: relative;
+  top: -6px;
+  padding-left: 30px;
+}
+header .burger:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 2px;
+  background: white;
+  box-shadow: 0 12px 0 0 white, 0 6px 0 0 white;
+}
+@media screen and (min-width: 800px) {
+  header .burger {
+    display: none;
+  }
+}
+header .donate-link {
+  width: 72px;
+  text-align: center;
+  position: absolute;
+  right: 10px;
+  top: 27px;
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
+  padding-bottom: 6px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+main {
+  /* display: inline-block; */
+  /* font-family: 'lato', sans-serif; */
+  /* font-family: 'Montserrat', 'Extra-Bold'; */
+  font-family: 'Montserrat', 'bold';
+  font-size: 50px;
+  letter-spacing: 6px;
+  /* color: #88888a; */
+  color: #FFFFFF;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  text-transform: uppercase;
+  /* position: relative; */
+  text-align: center;
+}
+
+.main h1{
+     font-size:7vw;
+     /* padding: 0.5px; */
+     /* font-family: 'Montserrat'; */
+     margin-left: 5%;
+     margin-bottom: 0.5%;
+     margin-top:2%;
+
+   }
+
+   .sec-services h2,
+   .sec-services p {
+     font-weight: 300;
+     text-align: center;
+     opacity: 100%;
+     color: #FFFFFF;
+   }
+
+   /*Services*/
+/* .sec-services {
+  background: #f9f9f9;
+} */
+
+.sec-services i {
+  display: block;
+  margin: auto;
+  width: 45px;
+  color: #FFFFFF;
+}
+
+.sec-services .fa-sun {
+  width: 64px;
+  /* color: #FFFFFF; */
+  color: yellow;
+}
+
+.sec-services .fa-industry {
+  width: 68px;
+  color: tomato;
+}
+
+.sec-services .fa-leaf {
+  width: 68px;
+  color: green;
+}
+
+
+.sec-services h2 {
+  margin: 1em 0;
+  color: #FFFFFF;
+}
+
+.sec-services h1{
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 3vw;
+
+}
+
+
+hr {
+  margin-bottom: 3em;
+  width: 7%;
+}
+
+
+</style>
+
+</html>
